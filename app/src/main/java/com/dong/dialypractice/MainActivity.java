@@ -57,7 +57,7 @@ public class MainActivity extends BaseActivity {
                                 startActivity(intent);
                                 break;
                             case 1:
-                                intent = new Intent(MainActivity.this,MainActivity.class);
+                                intent = new Intent(MainActivity.this, com.dong.dialypractice.friend.activitys.MainActivity.class);
                                 startActivity(intent);
                                 break;
                         }

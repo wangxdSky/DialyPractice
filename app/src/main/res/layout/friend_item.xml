@@ -20,12 +20,12 @@
         android:textColor="#363954"
         android:textSize="15sp" />
 
-    <com.dong.pratice.module.friend.views.MultiImageView
+    <com.dong.dialypractice.friend.views.MultiImageView
         android:id="@+id/multi_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp">
 
-    </com.dong.pratice.module.friend.views.MultiImageView>
+    </com.dong.dialypractice.friend.views.MultiImageView>
 
 </LinearLayout>

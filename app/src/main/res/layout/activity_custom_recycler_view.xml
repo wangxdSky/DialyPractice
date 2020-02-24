@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f0f098"
-    tools:context=".MainActivity">
+    android:background="#f0f098">
 
-    <com.dong.pratice.custome.PullRefreshRecyclerView
+    <com.dong.dialypractice.custome.PullRefreshRecyclerView
         android:id="@+id/real_pull_refresh_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
