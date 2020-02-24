@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':gestureviewslib', ':picturebrowse', ':bigimagelib', ':HorizontalRedreshlib'
 rootProject.name='DialyPractice'
