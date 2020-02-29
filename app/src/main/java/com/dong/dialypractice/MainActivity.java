@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.dong.dialypractice.adapter.CommonRecyclerViewAdapter;
 import com.dong.dialypractice.adapter.ViewHolder;
+import com.dong.dialypractice.itemtouchhelper.ItemTouchHelperActivity;
 import com.dong.dialypractice.modle.HomeItemBean;
 import com.dong.pratice.R;
 
@@ -60,6 +61,10 @@ public class MainActivity extends BaseActivity {
                                 intent = new Intent(MainActivity.this, com.dong.dialypractice.friend.activitys.MainActivity.class);
                                 startActivity(intent);
                                 break;
+                            case 2:
+                                intent = new Intent(MainActivity.this, ItemTouchHelperActivity.class);
+                                startActivity(intent);
+                                break;
                         }
                     }
                 });
@@ -72,6 +77,7 @@ public class MainActivity extends BaseActivity {
     public void initData() {
         itemList.add(new HomeItemBean("自定义RecyclerView"));
         itemList.add(new HomeItemBean("仿朋友圈效果--大图浏览"));
+        itemList.add(new HomeItemBean("ItemTouchHelper的使用"));
         if (homeAdapter != null) homeAdapter.notifyDataSetChanged();
     }
 }
