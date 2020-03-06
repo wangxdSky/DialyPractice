@@ -13,6 +13,7 @@ import com.dong.dialypractice.adapter.ViewHolder;
 import com.dong.dialypractice.itemtouchhelper.ItemTouchHelperActivity;
 import com.dong.dialypractice.messagebadge.MessageBadgeActivity;
 import com.dong.dialypractice.modle.HomeItemBean;
+import com.dong.dialypractice.objectanimator.ObjectAnimatorActivity;
 import com.dong.dialypractice.pathmeasure.PathMeasureActivity;
 import com.dong.pratice.R;
 
@@ -76,6 +77,11 @@ public class MainActivity extends BaseActivity {
                                         .class);
                                 startActivity(intent);
                                 break;
+                            case 5:
+                                intent = new Intent(MainActivity.this, ObjectAnimatorActivity
+                                        .class);
+                                startActivity(intent);
+                                break;
                         }
                     }
                 });
@@ -91,6 +97,7 @@ public class MainActivity extends BaseActivity {
         itemList.add(new HomeItemBean("ItemTouchHelper的使用"));
         itemList.add(new HomeItemBean("消息小红点测试"));
         itemList.add(new HomeItemBean("PathMeasure测试"));
+        itemList.add(new HomeItemBean("属性动画测试 "));
         if (homeAdapter != null) homeAdapter.notifyDataSetChanged();
     }
 }
