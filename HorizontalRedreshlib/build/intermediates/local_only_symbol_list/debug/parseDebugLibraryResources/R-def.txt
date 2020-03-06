@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+drawable animated_rotate_1
+drawable goods_detail_icon_move
+drawable goods_detail_icon_move_white
+drawable ic_loading_1
+drawable ic_loading_2
+drawable ic_loading_3
+id iv_icon
+id ll_more
+id progressbar
+id static_loading
+id tv_des
+layout common_gray_loading_refresh_header
+layout common_loading_refresh_header
+layout nice_refresh_header
+string app_name

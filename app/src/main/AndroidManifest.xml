@@ -17,7 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.dong.dialypractice.itemtouchhelper.ItemTouchTestActivity"></activity>
+        <activity android:name="com.dong.dialypractice.pathmeasure.PathMeasureActivity"></activity>
+        <activity android:name="com.dong.dialypractice.messagebadge.MessageBadgeActivity" />
+        <activity android:name="com.dong.dialypractice.itemtouchhelper.ItemTouchTestActivity" />
         <activity android:name="com.dong.dialypractice.itemtouchhelper.ItemTouchHelperActivity" />
         <activity android:name="com.dong.dialypractice.CustomRecyclerViewActivity" />
         <activity android:name="com.dong.dialypractice.MainActivity">
