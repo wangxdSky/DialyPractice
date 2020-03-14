@@ -14,6 +14,7 @@ import com.dong.dialypractice.itemtouchhelper.ItemTouchHelperActivity;
 import com.dong.dialypractice.messagebadge.MessageBadgeActivity;
 import com.dong.dialypractice.modle.HomeItemBean;
 import com.dong.dialypractice.objectanimator.ObjectAnimatorActivity;
+import com.dong.dialypractice.okhttp.OkhttpActivity;
 import com.dong.dialypractice.pathmeasure.PathMeasureActivity;
 import com.dong.pratice.R;
 
@@ -82,6 +83,11 @@ public class MainActivity extends BaseActivity {
                                         .class);
                                 startActivity(intent);
                                 break;
+                            case 6:
+                                intent = new Intent(MainActivity.this, OkhttpActivity
+                                        .class);
+                                startActivity(intent);
+                                break;
                         }
                     }
                 });
@@ -98,6 +104,7 @@ public class MainActivity extends BaseActivity {
         itemList.add(new HomeItemBean("消息小红点测试"));
         itemList.add(new HomeItemBean("PathMeasure测试"));
         itemList.add(new HomeItemBean("属性动画测试 "));
+        itemList.add(new HomeItemBean("OkHttp 源码分析 "));
         if (homeAdapter != null) homeAdapter.notifyDataSetChanged();
     }
 }

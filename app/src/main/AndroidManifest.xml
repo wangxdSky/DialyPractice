@@ -17,7 +17,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.dong.dialypractice.objectanimator.ObjectAnimatorActivity"></activity>
+        <activity android:name="com.dong.dialypractice.okhttp.OkhttpActivity"></activity>
+        <activity android:name="com.dong.dialypractice.objectanimator.ObjectAnimatorActivity" />
         <activity android:name="com.dong.dialypractice.pathmeasure.PathMeasureActivity" />
         <activity android:name="com.dong.dialypractice.messagebadge.MessageBadgeActivity" />
         <activity android:name="com.dong.dialypractice.itemtouchhelper.ItemTouchTestActivity" />
